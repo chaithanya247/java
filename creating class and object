@@ -1,0 +1,27 @@
+//Example1:
+
+class hero{
+    static void habits(){
+        System.out.println("responsibilty");
+    }
+    public static void main(String args[]){
+        hero hh = new hero();
+        hh.habits();
+    }
+}
+
+//Example2
+
+class father{
+    void habits(){
+        System.out.println("responsibilty to takecare his child");
+    }
+}
+class hero{
+    public static void main(String args[]){
+        father hh = new father();
+        hh.habits();
+    }
+}
+
+
